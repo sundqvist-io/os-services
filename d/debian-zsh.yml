@@ -1,5 +1,5 @@
 console:
-  image: registry.gitlab.com/sundqvist.io/console/rancher-console:v1.4.2
+  image: registry.gitlab.com/sundqvist.io/rancher-console
   command: ros console-init
   privileged: true
   labels:
