@@ -20,11 +20,7 @@ services:
 - waagent
 - virtualbox-tools
 consoles:
-- alpine
-- centos
-- debian
-- fedora
-- ubuntu
+- debian-zsh
 engines:
 - docker-1.12.6
 - docker-1.13.1
